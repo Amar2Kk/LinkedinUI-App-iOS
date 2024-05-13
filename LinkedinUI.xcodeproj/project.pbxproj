@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA12DB322BF2336200095660 /* ProfileAndPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12DB312BF2336200095660 /* ProfileAndPostView.swift */; };
+		AA12DB342BF235A200095660 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12DB332BF235A200095660 /* PostView.swift */; };
+		AA12DB362BF258DA00095660 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12DB352BF258D900095660 /* HomeScreenView.swift */; };
+		AA12DB382BF259AA00095660 /* TabScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA12DB372BF259AA00095660 /* TabScreenView.swift */; };
 		AAB4CDF62BF1148100452501 /* LinkedinUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CDF52BF1148100452501 /* LinkedinUIApp.swift */; };
 		AAB4CDF82BF1148100452501 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CDF72BF1148100452501 /* ContentView.swift */; };
 		AAB4CDFA2BF1148300452501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB4CDF92BF1148300452501 /* Assets.xcassets */; };
 		AAB4CDFD2BF1148300452501 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB4CDFC2BF1148300452501 /* Preview Assets.xcassets */; };
+		AAB4CE052BF1153200452501 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CE042BF1153200452501 /* SearchBarView.swift */; };
+		AAB4CE082BF117E200452501 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CE072BF117E100452501 /* PostModel.swift */; };
+		AAB4CE0A2BF117F100452501 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CE092BF117F100452501 /* NetworkModel.swift */; };
+		AAB4CE0C2BF1191000452501 /* InvitationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CE0B2BF1191000452501 /* InvitationCardView.swift */; };
+		AAB4CE0E2BF12B2600452501 /* MyNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CE0D2BF12B2600452501 /* MyNetworkView.swift */; };
+		AAB4CE102BF1304400452501 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CE0F2BF1304400452501 /* PostCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA12DB312BF2336200095660 /* ProfileAndPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndPostView.swift; sourceTree = "<group>"; };
+		AA12DB332BF235A200095660 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		AA12DB352BF258D900095660 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		AA12DB372BF259AA00095660 /* TabScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreenView.swift; sourceTree = "<group>"; };
 		AAB4CDF22BF1148100452501 /* LinkedinUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedinUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB4CDF52BF1148100452501 /* LinkedinUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedinUIApp.swift; sourceTree = "<group>"; };
 		AAB4CDF72BF1148100452501 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAB4CDF92BF1148300452501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAB4CDFC2BF1148300452501 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAB4CE042BF1153200452501 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		AAB4CE072BF117E100452501 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		AAB4CE092BF117F100452501 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		AAB4CE0B2BF1191000452501 /* InvitationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationCardView.swift; sourceTree = "<group>"; };
+		AAB4CE0D2BF12B2600452501 /* MyNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkView.swift; sourceTree = "<group>"; };
+		AAB4CE0F2BF1304400452501 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				AAB4CDF52BF1148100452501 /* LinkedinUIApp.swift */,
+				AAB4CE032BF1151800452501 /* Views */,
 				AAB4CDF72BF1148100452501 /* ContentView.swift */,
+				AAB4CE062BF117B000452501 /* Models */,
 				AAB4CDF92BF1148300452501 /* Assets.xcassets */,
 				AAB4CDFB2BF1148300452501 /* Preview Content */,
 			);
@@ -65,6 +87,30 @@
 				AAB4CDFC2BF1148300452501 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAB4CE032BF1151800452501 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAB4CE042BF1153200452501 /* SearchBarView.swift */,
+				AAB4CE0B2BF1191000452501 /* InvitationCardView.swift */,
+				AAB4CE0D2BF12B2600452501 /* MyNetworkView.swift */,
+				AAB4CE0F2BF1304400452501 /* PostCardView.swift */,
+				AA12DB312BF2336200095660 /* ProfileAndPostView.swift */,
+				AA12DB332BF235A200095660 /* PostView.swift */,
+				AA12DB352BF258D900095660 /* HomeScreenView.swift */,
+				AA12DB372BF259AA00095660 /* TabScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAB4CE062BF117B000452501 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAB4CE072BF117E100452501 /* PostModel.swift */,
+				AAB4CE092BF117F100452501 /* NetworkModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +183,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB4CE102BF1304400452501 /* PostCardView.swift in Sources */,
+				AA12DB322BF2336200095660 /* ProfileAndPostView.swift in Sources */,
 				AAB4CDF82BF1148100452501 /* ContentView.swift in Sources */,
+				AAB4CE082BF117E200452501 /* PostModel.swift in Sources */,
+				AAB4CE052BF1153200452501 /* SearchBarView.swift in Sources */,
+				AAB4CE0C2BF1191000452501 /* InvitationCardView.swift in Sources */,
+				AAB4CE0A2BF117F100452501 /* NetworkModel.swift in Sources */,
+				AA12DB362BF258DA00095660 /* HomeScreenView.swift in Sources */,
+				AAB4CE0E2BF12B2600452501 /* MyNetworkView.swift in Sources */,
+				AA12DB342BF235A200095660 /* PostView.swift in Sources */,
+				AA12DB382BF259AA00095660 /* TabScreenView.swift in Sources */,
 				AAB4CDF62BF1148100452501 /* LinkedinUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
